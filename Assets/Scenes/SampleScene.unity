@@ -3555,7 +3555,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7c7e6fd0a7aaf7246b62b80f38c04971, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b137180db9244cb46a3a1b346c44b8be, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3641,6 +3641,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!23 &850344053 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3277313969026655427, guid: 2c2c2d20232e4c648bc9138abce7a947,
+    type: 3}
+  m_PrefabInstance: {fileID: 3277313969339849911}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &869379305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6524,7 +6530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4230341433385666, guid: 09135c03210603f42b4207ff66b56781, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.88
+      value: 4.75
       objectReference: {fileID: 0}
     - target: {fileID: 4230341433385666, guid: 09135c03210603f42b4207ff66b56781, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7560,7 +7566,12 @@ PrefabInstance:
         type: 3}
       propertyPath: soundFX
       value: 
-      objectReference: {fileID: 8300000, guid: 7c7e6fd0a7aaf7246b62b80f38c04971, type: 3}
+      objectReference: {fileID: 8300000, guid: b137180db9244cb46a3a1b346c44b8be, type: 3}
+    - target: {fileID: 3277313969026655429, guid: 2c2c2d20232e4c648bc9138abce7a947,
+        type: 3}
+      propertyPath: r
+      value: 
+      objectReference: {fileID: 850344053}
     - target: {fileID: 3277313969026655430, guid: 2c2c2d20232e4c648bc9138abce7a947,
         type: 3}
       propertyPath: m_Name
